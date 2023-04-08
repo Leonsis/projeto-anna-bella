@@ -1,0 +1,95 @@
+/** INICIO Geral **/
+body {
+    font: 16px Arial, helvetica , sans-serif;
+    background: url(../imagens/fundo.png);
+}
+
+#conteiner {
+    margin: 0 auto;
+    width: 900px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/** FIM Geral **/
+
+/** INICIO Topo **/
+#topo h1 {
+    background: url(../imagens/capa.png) no-repeat;
+    width: 900px;
+    line-height: 390px;
+    text-indent: -3000px;
+    margin: 0;
+}
+
+.caixa-menu {
+    background-color: #c5c5b2;
+}
+
+.menu {
+    width: 486px;
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    float: left;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    color:  #4b566a;
+}
+
+.menu a:hover,
+#index .index,
+#biografia .biografia,
+#campanhas-publicas .campanhas-publicas,
+#contato .contato {
+    color: #ccc;
+    background-color: #828271;
+}
+/** FIM Topo **/
+
+/** INICIO Conteudo **/
+#conteudo {
+    background-color: #e8e8d9;
+    text-align: justify;
+    padding: 10px;
+}
+
+#conteudo h2 {
+    color: #828271;
+}
+
+#conteudo img {
+    border: 5px solid #ccc;
+}
+
+.contato1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/** FIM Conteudo **/
+
+/** INICIO rodape **/
+#rodape {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+/** FIM rodape **/
